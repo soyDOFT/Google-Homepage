@@ -1,0 +1,143 @@
+* {
+  font-size: 14px;
+  font-family: Roboto, arial, sans-serif;
+  text-decoration: none;
+  color: #bdc1c6;
+  background-color: #202124;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px;
+  margin: 5px 5px;
+  margin-left: 15px;
+  align-items: center;
+
+}
+
+.header__about {
+  margin-right: 20px;
+}
+
+.header__store {
+  margin-right: 84%;
+}
+
+.header__gmail {
+  margin-right: 20px;
+}
+
+.header__images {
+  margin-right: 15px;
+}
+
+.header__profile-pic {
+  border-radius: 75%;
+  box-sizing: border-box;
+  width: 48px;
+  padding: 8px;
+
+}
+
+.header__profile-pic:hover {
+  box-shadow: 48px #36383d;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__logo {
+  margin-top: 10%;
+  width: 272px;
+  padding: 5px 0px;
+}
+
+.main__searchform {
+  margin: auto;
+  flex-shrink: 2;
+}
+
+.main__searchform__search {
+  border-radius: 20px;
+  width: 520px;
+  height: 40px;
+  margin: 20px;
+  padding-left: 50px;
+  min-width: 358.67px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #777a7d;
+}
+
+.main__btns {
+  display: flex;
+  column-gap: 20px;
+  margin: auto;
+  margin-left: 150px;
+}
+
+.btn {
+  width: 140px;
+  height: 35px;
+  margin-top: 10px;
+  border-radius: 3px;
+  border-style: none;
+  background-color: #323334;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  position: fixed;
+  margin-left: 25px;
+  margin-right: auto;
+  padding: 10px 10px;
+  bottom: 0;
+  background-color: black;
+  margin-left: -8px;
+  margin-top: 5px;
+}
+
+.footer__left {
+  text-align: left;
+  display: flex;
+  margin-left: -20%;
+  margin-right: -5%;
+  background-color: inherit;
+}
+
+.footer__center {
+  text-align: center;
+  display: inline;
+  margin-left: 0%;
+  margin-right: 0%;
+  background-color: inherit;
+}
+
+.footer__right {
+  text-align: right;
+  display: inline;
+  margin-left: 0%;
+  margin-right: -20%;
+  background-color: inherit;
+
+}
+
+.footer-alignment {
+  margin-right: 25px;
+  background-color: inherit;
+
+}
+
+.leaf {
+  bottom: 0;
+  width: 14px;
+  margin-right: 5px;
+  background-color: inherit;
+}
