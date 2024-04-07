@@ -14,7 +14,7 @@
     <a class="header__about" href="https://about.google/">About</a>
     <a class="header__store" href="https://store.google.com/">Store</a>
     <a class="header__gmail" href="https://mail.google.com/mail/u/0" href="">Gmail</a>
-    <a href="https://myaccount.google.com/">
+    <a class="header__profile" href="https://myaccount.google.com/">
       <img class="header__profile-pic" src="/img/defaultimg.jpg" href="https://myaccount.google.com/"
         alt="profile picture">
     </a>
@@ -29,6 +29,15 @@
       </aside>
     </form>
   </main>
+  <menu id="advancedMenu">
+    <a href="https://www.google.com/preferences?hl=en&fg=1">Search Settings</a>
+    <a href="/advancedsearch.html">Advanced Search</a>
+    <a href="https://myaccount.google.com/yourdata">Your data in Search</a>
+    <a href="https://myactivity.google.com/product/search">Search history</a>
+    <a href="https://support.google.com/websearch">Search help</a>
+    <a href="https://support.google.com/chrome/answer/95315">Send feedback</a>
+    <a class="advancedMenu__themeBtn">Dark Theme: On</a>
+</menu>
   <footer class="footer">
     <nav class="footer__left">
       <a class="footer-alignment" href="https://ads.google.com/intl/en_us/home">Advertising</a>
@@ -42,7 +51,7 @@
     <nav class="footer__right">
       <a class="footer-alignment" href="https://policies.google.com/privacy">Privacy</a>
       <a class="footer-alignment" href="https://policies.google.com/terms">Terms</a>
-      <a class="footer-alignment">Settings</a>
+      <button id="settingsMenu">Settings</button>
     </nav>
   </footer>
   <script src="/imagescript.js"></script>

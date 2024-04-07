@@ -3,7 +3,7 @@ const key2 = document.getElementById('k2');
 const key3 = document.getElementById('k3');
 const searchBtn = document.getElementById('enter');
 
-searchBtn.addEventListener('click', search)
+searchBtn.addEventListener('click', search);
 
 function search(event) {
     event.preventDefault();

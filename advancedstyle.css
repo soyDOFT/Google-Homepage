@@ -6,6 +6,10 @@
     background-color: #202124;
   }
 
+  body {
+    overflow-x: hidden;
+  }
+  
   #logo {
     top: 5px;
     width: 100px;
