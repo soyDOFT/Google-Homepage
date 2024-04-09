@@ -58,7 +58,7 @@ function themeChange() {
     document.querySelector(".main__logo").src = "/img/googlelogo_color.png";
     document.querySelector("#advancedMenu").style.backgroundColor = "white";
     document.querySelector("#advancedMenu").style.color = "black";
-    document.querySelector("#advancedMenu").style.boxShadow = "0px 0px 20px -10px black";   
+    document.querySelector("#advancedMenu").style.boxShadow = "0px 0px 20px -10px black";
     document.getElementById("advancedMenu").style.display = 'none';
 
     theme = 'light mode';
@@ -67,7 +67,7 @@ function themeChange() {
 
 function randomBtn() {
   //a list of different adjectives
-  const adj = ['Good', 'Shiny', 'Long', 'Great', 'Little', 'Old', 'Right', 'Big', 'High', 'Different', 'Small', 'Large', 'Young', 'Important', 'Artistic', 'Bad', 'Same', 'Able', 'Sad', 'Mad','Glad', 'Trendy'];
+  const adj = ['Good', 'Shiny', 'Long', 'Great', 'Little', 'Old', 'Right', 'Big', 'High', 'Different', 'Small', 'Large', 'Young', 'Important', 'Artistic', 'Bad', 'Same', 'Able', 'Sad', 'Mad', 'Glad', 'Trendy'];
   //Generates a random number based on the size of adj and rounded down
   const random = Math.floor(Math.random() * --adj.length);
 

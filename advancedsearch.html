@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Advanced Search</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X_UA_Compatible" content="IE=edge">
-    <meta name="viewport" content="width-device-width">
-    <link rel="stylesheet" href="/advancedstyle.css"/>
+  <title>Advanced Search</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X_UA_Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/advancedstyle.css" />
 </head>
+
 <body>
-<header>
-    <img id="logo" src="/img/googlelogo.png" alt="google logo">
-</header>
-<br>
-<p id="title">Advanced Search</p>
-<hr>
-<h2>Find pages with...</h2>
-<form>
+  <header>
+    <img id="logo" src="/img/googlelogo.png" alt="google logo" width="100" height="33">
+  </header>
+  <br>
+  <p id="title">Advanced Search</p>
+  <hr>
+  <h2>Find pages with...</h2>
+  <form>
     <label for="k1">all these words: </label>
-    <input class="search_item" id="k1" type="text" >
+    <input class="search_item" name="inclusive" id="k1" type="text">
     <br>
     <label for="k2">this exact word or phrase: </label>
-    <input class="search_item" id="k2" type="text">
+    <input class="search_item" name="exact" id="k2" type="text">
     <br>
     <label for="k3">none of these words: </label>
-    <input class="search_item" id="k3" type="text">
+    <input class="search_item" name="exclusive" id="k3" type="text">
     <br>
-    <button id="enter">Submit</button>
-</form>
+    <button id="enter" value="Submit">Submit</button>
+  </form>
 
-<script src="/advancedscript.js"></script>
+  <script src="/advancedscript.js"></script>
 </body>
+
 </html>

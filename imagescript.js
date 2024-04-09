@@ -1,4 +1,4 @@
-let theme = 'dark mode';
+let isDark = true;
 
 const enterBtn = document.querySelector('#enter');
 const imageSearchBox = document.querySelector('#image_input');
@@ -39,7 +39,7 @@ function popUp() {
 }
 
 function themeChange() {
-  if (theme != 'dark mode') {
+  if (!isDark) {
     window.location.reload();
   } else {
     //Switches necessary components to light mode
@@ -63,7 +63,7 @@ function themeChange() {
     document.querySelector("#advancedMenu").style.boxShadow = "0px 0px 20px -10px black";
     document.getElementById("advancedMenu").style.display = 'none';
 
-    theme = 'light mode';
+    isDark = false;
   }
 }
 
